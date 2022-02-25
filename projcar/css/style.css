@@ -1,0 +1,208 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+ul {
+
+    list-style: none;
+}
+
+body {
+background-color: rgb(221, 221, 221);
+font-family: Arial, sans-serif;
+
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    box-shadow: 0 0 10px black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: fixed;
+    z-index: 1;
+    
+}
+
+.logo {
+    color: white;
+    letter-spacing: -3px;
+    text-transform: capitalize;
+    
+}
+
+.logo span:first-child {
+    color: #d62a1ef1;
+}
+
+.logo2 span:last-child {
+
+
+    letter-spacing: normal;
+}   
+ /**/
+
+.menu{
+    display: flex;
+    
+}
+
+.menu li{
+    position: relative;
+}
+
+.menu li a {
+    padding: 17px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    z-index: 1;
+}
+
+.menu > li:hover {
+
+    background: rgb(196, 4, 4);
+}
+
+.menu > li:hover >.submenu,
+.submenu > li:hover  .submenu
+ {
+
+    display: block;
+    
+}
+
+.submenu {
+
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background: #566d6d;
+    min-width: 110%;
+    
+    
+}
+
+.submenu li:hover {
+background: rgba(165, 3, 3, 0.658);
+
+}
+
+.submenu li {
+    position: relative;
+}
+
+.submenu li .submenu{
+    top:0;
+    left: 100%;
+}
+
+/*.wrapper{
+    width: 90%;
+    margin: 0 auto;
+
+}
+*/
+
+.banner{
+    background-image: url('../image/imgcartrip1.jpeg');
+    background-size: cover;
+    background-position: center center;
+    top: 50px;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+}
+
+.banner::after{
+     content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #df0808;
+    opacity: -20;
+      /**/
+}
+
+.banner h2{
+    padding-top: 8%;
+    font-size: 225px;
+    color: #fff;
+    letter-spacing: -3px;
+    text-transform: capitalize;
+    margin-left: 28%;
+    
+    
+    
+}
+.logo2 span:first-child{
+
+    color: #a31207;
+}
+
+.logo2{
+    color: white;
+    letter-spacing: -10px;
+    text-transform: capitalize;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.content-area{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background: rgb(39, 38, 38);
+    top: 550px;
+    
+}
+
+/*.content-area h2{
+    font-size: 40px;
+    margin: 0;
+    padding-top: 30px;
+    letter-spacing: 4px;
+    justify-content: center;
+    
+}
+
+
+
+}.content-area p{
+    padding: 2%;
+    line-height: 35px;
+    text-align: justify;
+}*/
+
+
+  
+ .info{
+
+color: white;
+justify-content: center;
+padding: 10px 50px 50px;
+
+
+ }
+p{
+    margin-top: -4%;
+    margin-bottom: 1rem;
+    background-color: #16151554;
+    padding: 70px;
+    font-size: 25px;
+    color: #fdfdfd7a;
+    font-family: iu-sans-serif;
+    
+
+}
