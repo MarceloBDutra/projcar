@@ -4,6 +4,10 @@ padding: 0;
 box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 ul {
 
     list-style: none;
@@ -129,8 +133,8 @@ background: rgba(165, 3, 3, 0.658);
 }
 
 .banner h2{
-    padding-top: 8%;
-    font-size: 225px;
+    padding-top: 12%;
+    font-size: 227px;
     color: #fff;
     letter-spacing: -3px;
     text-transform: capitalize;
@@ -152,6 +156,7 @@ background: rgba(165, 3, 3, 0.658);
    align-items: center;
    
 }
+
 
 .content-area{
     width: 100%;
@@ -175,7 +180,7 @@ p{
     margin-bottom: 1rem;
     background-color: #16151554;
     padding: 70px;
-    font-size: 25px;
+    font-size: 20px;
     color: #fdfdfd7a;
     font-family: iu-sans-serif;
     
@@ -229,7 +234,7 @@ margin: bottom 30px;
     margin: 0 10px 10px 0;
     text-align: center;
     line-height: 40px;
-    border-radius: 30%;
+    /*border-radius: 30%;*/
     color: #ffffff;
     transition: all 0.5s ease;
 
@@ -242,6 +247,5 @@ margin: bottom 30px;
 }
 
 
-html{
-    scroll-behavior: smooth;
-}
+
+
